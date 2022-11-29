@@ -19,11 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{E0287751-99A3-4325-A14F-DE6E2EF34935}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{771CD715-EC94-40C9-8CB8-A4F32A9B93B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Memento\Memento.csproj", "{771CD715-EC94-40C9-8CB8-A4F32A9B93B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{6AD8DC5D-57EE-4371-A96D-61865375935B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{6AD8DC5D-57EE-4371-A96D-61865375935B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{378F85FC-982A-4E91-A86D-2BD98D8E32A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "State\State.csproj", "{378F85FC-982A-4E91-A86D-2BD98D8E32A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{D876763C-BF8E-4AE9-A07A-F38C28B7DCEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{378F85FC-982A-4E91-A86D-2BD98D8E32A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{378F85FC-982A-4E91-A86D-2BD98D8E32A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{378F85FC-982A-4E91-A86D-2BD98D8E32A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D876763C-BF8E-4AE9-A07A-F38C28B7DCEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D876763C-BF8E-4AE9-A07A-F38C28B7DCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D876763C-BF8E-4AE9-A07A-F38C28B7DCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D876763C-BF8E-4AE9-A07A-F38C28B7DCEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
